@@ -74,7 +74,6 @@ namespace ConsoleApp1
             return Math.Sin(ToRadians());
         }
 
-        // Порівняння кутів без використання операторів
         public bool EqualsTo(Angle other)
         {
             return this.Degrees == other.Degrees && this.Minutes == other.Minutes;
